@@ -6,7 +6,7 @@ vulkan := true
 sdl2 := true
 local := true
 lto := true
-flags += -I. -I.. -I../ares -I../thirdparty -DMIA_LIBRARY
+flags += -Wall -Werror -I. -I.. -I../ares -I../thirdparty -DMIA_LIBRARY
 
 nall.path := ../nall
 include $(nall.path)/GNUmakefile
